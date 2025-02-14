@@ -5,10 +5,18 @@
     --primary: #FAFAFA;
     --secondray: #252B42;
     --secondary2: #17213C;
-    
+    --green: #0D5C63;
+    --gray: #737373;
+    --white: #FFFFFF;
+
 }
 
+ .container{
+    width: 1046px;
+    height: auto;
+ }
 
+    /* navbar */
 
 .navbar{
     color: var(--secondray);
@@ -32,6 +40,9 @@
     font-weight: 700;
 }
 
+   /* header */
+
+
 .cover{
     background-image: url(img/cover.png);
     background-size: cover;
@@ -41,12 +52,19 @@
 }
 
 .naslov{
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
     height: 350px;
     
+}
+
+.kartica{
+    position: relative;
+    z-index: 1;
+    transform: translate( 0px, -150px);
 }
 
 .naslov h1{ 
@@ -58,24 +76,67 @@
   
 }
 
-.naslov p {
+.naslov h4 {
     word-wrap: break-word;
     max-width: 360px;
     font-size: 20px;
-    color:#737373 ;
+    color: var(--gray);
+    
 
 }
+
 
 .btn-text{
     background-color: #FF7B47;
-    color: #FFFFFF;
+    color: var(--white);
     border-radius: 37px;
+    padding-inline: 36px;
     font-size: 14px;
+    
 }
 
 .btn-text2{
-    border-color: #0D5C63;
+    border-color: var(--green);
     border-radius: 37px;
-    color: #0D5C63;
+    color: var(--green);
+    padding-inline: 36px;
+    font-size: 14px;
 }
 
+.kartica .card{
+ color: var(--green);
+ border-color: var(--white);
+ 
+}
+
+.kartica h3{
+    color: var(--secondray);
+    font-size: 24px;
+    margin-top: -15px;
+}
+
+.kartica p{
+    color: var(--gray);
+    font-size: 14px;
+}
+
+/* expiriance */
+
+.exp{
+    background-color: var(--white);
+    
+    
+}
+
+.exp h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--secondray);
+    padding: 10px;
+}
+
+.exp h5{
+    font-size: 16px;
+    font-weight: 700;
+    color:var(--gray) ;
+}
