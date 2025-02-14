@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --primary: #FAFAFA;
+    --secondray: #252B42;
+    --secondary2: #17213C;
+    
+}
+
+
+
+.navbar{
+    color: var(--secondray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar-nav{
+    margin-left: 50px;
+}
+
+.nav-link{
+    width: 45px;
+    height: 24px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cover{
+    background-image: url(img/cover.png);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding: 40px;
+}
+
+.naslov{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 350px;
+    
+}
+
+.naslov h1{ 
+  word-wrap: break-word;
+  max-width: 300px;
+  font-weight: 800;
+  color: var(--secondray);
+  
+  
+}
+
+.naslov p {
+    word-wrap: break-word;
+    max-width: 360px;
+    font-size: 20px;
+    color:#737373 ;
+
+}
+
+.btn-text{
+    background-color: #FF7B47;
+    color: #FFFFFF;
+    border-radius: 37px;
+    font-size: 14px;
+}
+
+.btn-text2{
+    border-color: #0D5C63;
+    border-radius: 37px;
+    color: #0D5C63;
+}
+
